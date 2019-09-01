@@ -452,7 +452,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .post-card-excerpt {
-    font-family: Georgia, serif;
+    font-family: -apple-system, BlinkMacSystemFont, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, Arial, sans-serif;;
 }
 
 .post-card-meta {
@@ -743,9 +743,9 @@ make sure this only happens on large viewports / desktop-ish devices.
     margin: 0 auto;
     padding: 70px 100px 0;
     min-height: 230px;
-    font-family: Georgia, serif;
-    font-size: 2.2rem;
-    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, Arial, sans-serif;;
+    font-size: 1.6rem;
+    line-height: 1.8;
     background: #fff;
 }
 
@@ -985,7 +985,7 @@ Usage (In Ghost editor):
 .post-full-content h5,
 .post-full-content h6 {
     color: color(var(--darkgrey) l(-5%));
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, Arial, sans-serif;;
 }
 
 .post-full-content h1 {
@@ -1000,9 +1000,10 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h2 {
-    margin: 0.5em 0 0.2em 0;
-    font-size: 3.6rem;
+    margin: 1em 0 0.5em 0;
+    font-size: 2.6rem;
     font-weight: 700;
+    border-bottom: 1px solid #CCC;
 }
 @media (max-width: 500px) {
     .post-full-content h2 {
@@ -1011,8 +1012,8 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h3 {
-    margin: 0.5em 0 0.2em 0;
-    font-size: 2.8rem;
+    margin: 1em 0 0.5em 0;
+    font-size: 2.0rem;
     font-weight: 700;
 }
 @media (max-width: 500px) {
@@ -1038,7 +1039,6 @@ Usage (In Ghost editor):
     padding: 1em 0 1.5em;
     border: 0;
     color: var(--blue);
-    font-family: Georgia,serif;
     font-size: 3.2rem;
     line-height: 1.35em;
     text-align: center;
@@ -1118,7 +1118,6 @@ Usage (In Ghost editor):
     width: auto;
     border-spacing: 0;
     border-collapse: collapse;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 1.6rem;
     white-space: nowrap;
     vertical-align: top;
@@ -1847,7 +1846,7 @@ Usage (In Ghost editor):
 }
 
 .post-template .post-content > p:first-child {
-    font-size: 1.25em;
+    font-size: 1.6rem;
     line-height: 1.5em;
 }
 
@@ -1960,7 +1959,6 @@ Usage (In Ghost editor):
 
 .post-full-content .kg-bookmark-container {
     display: flex;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: var(--darkgrey);
     text-decoration: none;
     min-height: 148px;
@@ -2101,7 +2099,7 @@ Usage (In Ghost editor):
     justify-content: center;
     align-items: center;
     margin: 0 0 10px 0;
-    font-family: Georgia, serif;
+    font-family: -apple-system, BlinkMacSystemFont, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, Arial, sans-serif;;
     font-style: italic;
 }
 
@@ -2240,7 +2238,7 @@ Usage (In Ghost editor):
 .subscribe-overlay-description {
     margin: 0 auto 50px;
     max-width: 650px;
-    font-family: Georgia, serif;
+    font-family: -apple-system, BlinkMacSystemFont, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, Arial, sans-serif;;
     font-size: 3rem;
     line-height: 1.3em;
     font-weight: 300;
