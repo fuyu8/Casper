@@ -32,7 +32,7 @@ production stylesheet in assets/built/screen.css
 @import "global.css";
 
 body {
-    background: #f4f8fb;
+    background: color(var(--sand) a(15%));
 }
 
 .img {
@@ -112,8 +112,8 @@ body {
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
-    color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    color: color(var(--orange));
+    background: color(var(--yellow)) no-repeat center center;
     background-size: cover;
 }
 
@@ -126,7 +126,6 @@ body {
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0,0,0,0.18);
 }
 
 .site-header:after {
@@ -139,7 +138,6 @@ body {
     z-index: 10;
     display: block;
     height: 80px;
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0));
 }
 
 .site-header.no-image:before,
@@ -266,7 +264,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: block;
     margin: 0;
     padding: 10px 12px;
-    color: #fff;
+    color: color(var(--orange));
     opacity: 0.8;
 }
 
@@ -298,7 +296,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     align-items: center;
     margin: 0;
     padding: 10px;
-    color: #fff;
+    color: color(var(--orange));
     opacity: 0.8;
 }
 
@@ -308,7 +306,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .social-link svg {
     height: 1.8rem;
-    fill: #fff;
+    fill: color(var(--orange));
 }
 
 .social-link-fb svg {
@@ -354,7 +352,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .rss-button svg {
     margin-bottom: 1px;
     height: 2.1rem;
-    fill: #fff;
+    fill: color(var(--orange));
 }
 
 @media (max-width: 700px) {
@@ -664,7 +662,6 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-template .site-main,
 .page-template .site-main {
     padding-bottom: 4vw;
-    background: #fff;
 }
 
 .post-full {
@@ -2355,8 +2352,8 @@ Usage (In Ghost editor):
     position: relative;
     padding-top: 20px;
     padding-bottom: 60px;
-    color: #fff;
-    background: color(var(--darkgrey) l(-15%));
+    color: color(var(--darkgrey));
+    background: color(var(--yellow));
 }
 
 .site-footer-content {
@@ -2364,16 +2361,15 @@ Usage (In Ghost editor):
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    color: rgba(255,255,255,0.7);
     font-size: 1.3rem;
 }
 
 .site-footer-content a {
-    color: rgba(255,255,255,0.7);
+    color: color(var(--orange));
 }
 
 .site-footer-content a:hover {
-    color: rgba(255,255,255,1);
+    color: color(var(--orange) l(-15%));
     text-decoration: none;
 }
 
