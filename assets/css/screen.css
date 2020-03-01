@@ -1098,7 +1098,7 @@ Usage (In Ghost editor):
         height: 350px;
     }
     .post-full-content {
-        padding: 0;
+        padding: 3vw;
     }
     .post-full-content:before,
     .post-full-content:after {
